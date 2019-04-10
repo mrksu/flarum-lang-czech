@@ -1,7 +1,8 @@
 {
-    "name": "flarum/lang-czech",
+    "name": "mrksu/lang-czech",
     "type": "flarum-extension",
     "description": "Czech language pack.",
+    "homepage": "https://github.com/mrksu/lang-english",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
@@ -12,7 +13,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Czech",
+            "title": "Czech language pack",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
