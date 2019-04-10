@@ -1,29 +1,48 @@
 {
-    "name": "mrksu/flarum-lang-czech",
-    "type": "flarum-extension",
-    "description": "Czech language pack for Flarum.",
-    "homepage": "https://github.com/mrksu/flarum-lang-czech",
-    "keywords": ["locale"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.8"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Czech language pack",
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "cs",
-            "title": "Czech"
-        }
-    }
+	"name": "mrksu/flarum-lang-czech",
+	"type": "flarum-extension",
+	"description": "Czech language pack for Flarum.",
+	"homepage": "https://github.com/mrksu/flarum-lang-czech",
+	"keywords": [
+		"locale",
+		"flarum",
+		"czech-locale"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marek Suchánek",
+			"email": "marek.suchanek@protonmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/rob006-software/flarum-lang-czech/issues",
+		"source": "https://github.com/rob006-software/flarum-lang-czech"
+	},
+	"require": {
+		"flarum/core": "^0.1.0-beta.8.1"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"flarum/lang-english": "^0.1.0-beta.8"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Czech language pack",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "cs",
+			"title": "Česky"
+		}
+	}
 }
