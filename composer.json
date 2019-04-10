@@ -16,8 +16,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/rob006-software/flarum-lang-czech/issues",
-		"source": "https://github.com/rob006-software/flarum-lang-czech"
+		"issues": "https://github.com/mrksu/flarum-lang-czech/issues",
+		"source": "https://github.com/mrksu/flarum-lang-czech"
 	},
 	"require": {
 		"flarum/core": "^0.1.0-beta.8.1"
